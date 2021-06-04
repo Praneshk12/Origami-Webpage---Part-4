@@ -25,15 +25,7 @@ body{
     position:relative;
 }
 
-.Origami{
-    border: 2px solid #000000;
-    border-radius: 20px;
-    background-color: #add8e6;
-    margin-left:50px;
-    padding:10px;
-    width:310px;
-    font-family: fantasy;
-}
+
 a:link{
     color: blue;
 }
@@ -52,8 +44,15 @@ a:visited{
     left: 300px;
   }
   .Origami{
-      position:relative;
-  }
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding:30px;
+    margin:25px;
+    width:310px;
+    font-family: fantasy;
+    position:relative;
+}
   .Origami p{
     opacity:0;
     position:absolute;
@@ -61,10 +60,12 @@ a:visited{
     right:50%;
     transform:translate(-50%,-50%);
 }
-.origami:hover p{
+.Origami:hover p{
     opacity: 3;
-    color:turquoise;
+    color:#000000;
+    transform: scale(1.2);
 }
-.origami:hover img{
+.Origami:hover img{
     opacity:0.33;
+    transform: scale(1.2);
 }
